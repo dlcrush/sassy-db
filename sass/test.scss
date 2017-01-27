@@ -1,0 +1,18 @@
+@function add($num1, $num2) {
+  @return $num1 + $num2;
+}
+
+$map: (hello: 'world', 2: 3);
+$map2: ((1,2), (3,4));
+$map3: ((id: 1, name: 'David Crush', age: 24), (id: 2, name: 'Adam Trost', age: 29));
+
+@debug add(5,4);
+@debug $map;
+@debug $map2;
+@debug $map3;
+
+/* $SASSY-DB$: add(2,3) */
+
+body {
+  content: add(2,3);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sassy-db",
+  "devDependencies": {
+    "grunt": "1.0.0",
+    "grunt-cli": "~0.1.13",
+    "grunt-mocha": "^1.0.2",
+    "grunt-mocha-cli": "^3.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "sass-true": "^2.1.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.9.0",
+    "css": "^2.2.1",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.3.0"
+  }
+}
